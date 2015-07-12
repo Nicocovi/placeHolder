@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Index 1</title>
+    <link rel="stylesheet" href="main.css">
+ 
+</head>
+<body>
+    <header>
+    </header>
+ 
+    <div id="main">
+        <p>
+            <label>Email:</label>
+            <input id="inputEmailVisible" data-bind="value: inputEmail, placeholder: 'Enter your email'"/>
+        </p>
+        <p>
+            <label>Password:</label>
+            <input id="inputPasswordVisible" data-bind="value: inputPassword, placeholder: 'Enter your password'"/>
+        </p>
+ 
+        <div id="buttons">
+            <!--onclick for IE8 -->
+            <button type="button" id="buttonLogin" onclick="loginFunction()">Login</button>
+            <button type="button" id="buttonRegister">Register</button>
+        </div>
+    </div>
+ 
+ 
+</body>
+ 
+<script type='text/javascript' src='knockout-3.2.0.debug.js'></script>
+<script type='text/javascript' src='modernizr.js'></script>
+<script type='text/javascript' src='jquery-1.11.2.min.js'></script>
+<script type='text/javascript' src="mvc.js"></script>
+ 
+</html>
