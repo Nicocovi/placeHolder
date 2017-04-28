@@ -1,3 +1,2 @@
 # placeHolder
-placeholder for old browsers
-
+placeholder for old browsers.
